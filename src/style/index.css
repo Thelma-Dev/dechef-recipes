@@ -112,7 +112,7 @@ section.hero-banner {
     display: grid;
     place-items: center;
     padding: 0px;
-    background-image: linear-gradient(rgb(0 0 0/ 0.3), rgb(0 0 0/ 0.45)),url("../media/bg-image.jpg");
+    background-image: linear-gradient(rgb(0 0 0/ 0.45), rgb(0 0 0/ 0.6)),url("../media/bg-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,6 +127,7 @@ section.hero-banner {
 .banner p {
     margin-top: 2rem;
     font-size: 20px;
+    color: rgb(255, 255, 255,0.8);
 }
 
 .banner button {
@@ -750,7 +751,8 @@ p.copyright {
     }
     
     .hero-text h2 {
-        font-size: 3rem;
+        font-size: 6rem;
+        line-height:100px;
         color: #fff;
     }
 
@@ -894,7 +896,7 @@ p.copyright {
     
     .meal {
         width: 350px;
-        height: 390px;
+        height: 395px;
     }
     
 }
@@ -917,7 +919,8 @@ p.copyright {
     }
     
     .hero-text h2 {
-        font-size: 2.7rem;
+        font-size: 5rem;
+        line-height: 90px;
         color: #fff;
     }
 
