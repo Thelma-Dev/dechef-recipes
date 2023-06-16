@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dechef-recipes/static/css/main.abeac851.css",
-    "main.js": "/dechef-recipes/static/js/main.ecd0af01.js",
-    "static/media/companyLogo.png": "/dechef-recipes/static/media/companyLogo.dabcf7e8636f57d129c5.png",
+    "main.js": "/dechef-recipes/static/js/main.93b7bdeb.js",
+    "static/media/favicon.png": "/dechef-recipes/static/media/favicon.e5dd67d842996ea3ab02.png",
     "index.html": "/dechef-recipes/index.html",
     "main.abeac851.css.map": "/dechef-recipes/static/css/main.abeac851.css.map",
-    "main.ecd0af01.js.map": "/dechef-recipes/static/js/main.ecd0af01.js.map"
+    "main.93b7bdeb.js.map": "/dechef-recipes/static/js/main.93b7bdeb.js.map"
   },
   "entrypoints": [
     "static/css/main.abeac851.css",
-    "static/js/main.ecd0af01.js"
+    "static/js/main.93b7bdeb.js"
   ]
 }
