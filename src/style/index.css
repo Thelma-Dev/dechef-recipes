@@ -112,7 +112,7 @@ section.hero-banner {
     display: grid;
     place-items: center;
     padding: 0px;
-    background-image: linear-gradient(rgb(0 0 0/ 0.2), rgb(0 0 0/ 0.3)),url("../media/bg-image.jpg");
+    background-image: linear-gradient(rgb(0 0 0/ 0.3), rgb(0 0 0/ 0.45)),url("../media/bg-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -376,6 +376,7 @@ a.watch-video:hover {
 }
 
 .fa-circle {
+    font-size: 14px;
     color: rgb(21, 109, 75);
 }
 
@@ -773,7 +774,7 @@ p.copyright {
     }
 
     form {
-        width: 100%;
+        width: 95%;
         height: 650px;
     } 
     
@@ -873,6 +874,13 @@ p.copyright {
         width: 340px;
         height: 340px;
     }
+
+    .buttons {
+        margin-inline: auto;
+        height: 60px;
+        width: 88%;
+        padding: 5px 0px;
+    }
     
     
     .not-found-text {
@@ -882,6 +890,11 @@ p.copyright {
     
     .not-found-text h4 {
         font-size: 1.8rem;
+    }
+    
+    .meal {
+        width: 350px;
+        height: 390px;
     }
     
 }
@@ -951,7 +964,6 @@ p.copyright {
         height: 300px;
     }
     
-    
     .not-found-text {
         padding: 8px 0px;
         text-align: center;
@@ -959,5 +971,16 @@ p.copyright {
     
     .not-found-text h4 {
         font-size: 1.55rem;
+    }
+
+    .meal {
+        width: 320px;
+        height: 370px;
+    }
+
+    .buttons {
+        margin-inline: auto;
+        height: 60px;
+        width: 91%;
     }
 }
