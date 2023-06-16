@@ -13,6 +13,12 @@ function Header() {
                         <li><Link to= "/">Subscribe</Link></li>
                     </ul>
                 </nav>
+                <div className="hamburger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label className="menu-btn" htmlFor="menu-toggle">
+                        <span></span>
+                    </label>
+                </div>
             </div>
         </header>
     );
