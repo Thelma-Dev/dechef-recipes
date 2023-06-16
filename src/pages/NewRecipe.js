@@ -36,7 +36,7 @@ function NewRecipe() {
 
         <input 
         type='text' 
-        placeholder='Ingredients'
+        placeholder='Ingredient'
         {...register('ingredients')}
         aria-invalid={errors.ingredients ? "true": "false"}
         />
@@ -55,16 +55,17 @@ function NewRecipe() {
         <p className={`error-message ${errors.imageLink ? 'is-visible' : '' }`}>{errors.imageLink?.message}</p>
 
         <select {...register('area')}>
-            <option value="">Select an area</option>
+            <option value="">Select cusine type</option>
             <option value="Indian">Indian</option>
             <option value="Chinese">Chinese</option>
             <option value="Italian">Italian</option>
             <option value="Canadian">Canadian</option>
+            <option value="Canadian">French</option>
         </select>
         <p className={`error-message ${errors.area ? 'is-visible' : '' }`}>{errors.area?.message}</p>
 
         <textarea 
-        placeholder="Cooking description.."
+        placeholder="Meal prep description.."
         {...register('instruction')}
         aria-invalid={errors.instruction ? "true": "false"}
         >
