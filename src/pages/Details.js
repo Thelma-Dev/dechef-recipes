@@ -7,7 +7,6 @@ function Details() {
   const routeParams = useParams();
   const[selectedMeal, setSelectedMeal] = useState([])
   
-
   const getMealDetails = useCallback(async () => {
 
     const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${routeParams.name}`;
@@ -22,6 +21,7 @@ function Details() {
     }); 
     
   },[routeParams]);
+
 
   useEffect(() => {
     getMealDetails();
@@ -39,15 +39,14 @@ function Details() {
       <div className="container meal-details">
         <div className='meal-info'>
           <div className="meal-image">
-              <img src={selectedMeal.strMealThumb} alt={selectedMeal.strMeal}/>
+            <img src={selectedMeal.strMealThumb} alt={selectedMeal.strMeal}/>
           </div>
           <div className="details">
-              <h3 className='details-title'>{selectedMeal.strMeal}</h3>
-              <p className='details-area'><i className="fa-solid fa-circle"></i> {selectedMeal.strArea} cusine</p>
-              <div className='details-video'>
-                  <a href='#!'
-                  className='watch-video' >Watch Video</a>
-              </div>
+            <h3 className='details-title'>{selectedMeal.strMeal}</h3>
+            <p className='details-area'><i className="fa-solid fa-circle"></i> {selectedMeal.strArea} cusine</p>
+            <div className='details-video'>
+              <a href='#!'className='watch-video' >Watch Video</a>
+            </div>
           </div>
         </div>
         <div className='ingredients'>

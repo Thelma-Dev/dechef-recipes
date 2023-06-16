@@ -5,4 +5,4 @@ function Image(props) {
     )
   }
   
-export default Image
+export default Image;

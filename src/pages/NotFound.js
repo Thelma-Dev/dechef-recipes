@@ -1,8 +1,35 @@
+import { useEffect } from "react";
+import ErrorImage from '../media/404 Error-pana.png';
+import { useNavigate } from "react-router-dom";
 
+function NotFound(props) {
+  const navigate = useNavigate();
 
-function NotFound() {
+  useEffect(() => {
+    props.hideHeader()
+  })
+
+  const goBackHome = () => {
+    props.showHeader();
+    navigate('/');
+  };
+
   return (
-    <div>NotFound</div>
+    <main>
+      <div className="not-found-page">
+        <div className="error-box">
+          <div className="error-image">
+            {/* <a href="https://storyset.com/web">Web illustrations by Storyset</a> */}
+            <img src={ErrorImage} alt="Error page"/>
+          </div>
+          <div className="not-found-text">
+            <h4>Oops! looks like you are lost</h4>
+            <p>We can't find the page you are looking for</p>
+            <button className="back-home" onClick={() => goBackHome()}>Go Home</button>
+          </div>
+        </div>
+      </div>
+    </main>
   )
 }
 
