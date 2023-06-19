@@ -25,8 +25,9 @@ function Details() {
 
   useEffect(() => {
     getMealDetails();
+    window.scrollTo(0,0);
   },[getMealDetails])
-  
+
 
   return (
     <section className="details-page">

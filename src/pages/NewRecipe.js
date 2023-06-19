@@ -18,6 +18,8 @@ function NewRecipe() {
 
   const onSubmit = data => console.log(data);
   console.log(errors);
+
+  window.scrollTo(0,0);
   
 
   return (

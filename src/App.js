@@ -10,6 +10,7 @@ import NotFound from './pages/NotFound';
 import { useState } from 'react';
 
 
+
 function App() {
   let footerAltText = "Company logo";
   let facebookLogo = <i className="fa-brands fa-facebook"></i>;
@@ -27,6 +28,7 @@ function App() {
   const showHeader = () => {
     setShow(true);
   }
+  
 
   return (
     <>
