@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dechef-recipes/static/css/main.8b1bc136.css",
-    "main.js": "/dechef-recipes/static/js/main.22432dee.js",
+    "main.css": "/dechef-recipes/static/css/main.c341ac0e.css",
+    "main.js": "/dechef-recipes/static/js/main.631009be.js",
     "static/media/bg-image.jpg": "/dechef-recipes/static/media/bg-image.bf18810488750d379822.jpg",
     "static/media/404 Error-pana.png": "/dechef-recipes/static/media/404 Error-pana.cdbb568a2e7dd5b8abf6.png",
     "static/media/companyLogo.png": "/dechef-recipes/static/media/companyLogo.80b68cf35705cdc2bf65.png",
     "index.html": "/dechef-recipes/index.html",
-    "main.8b1bc136.css.map": "/dechef-recipes/static/css/main.8b1bc136.css.map",
-    "main.22432dee.js.map": "/dechef-recipes/static/js/main.22432dee.js.map"
+    "main.c341ac0e.css.map": "/dechef-recipes/static/css/main.c341ac0e.css.map",
+    "main.631009be.js.map": "/dechef-recipes/static/js/main.631009be.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1bc136.css",
-    "static/js/main.22432dee.js"
+    "static/css/main.c341ac0e.css",
+    "static/js/main.631009be.js"
   ]
 }
