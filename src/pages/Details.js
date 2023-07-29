@@ -1,11 +1,16 @@
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useCallback, useState } from "react";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import axios from 'axios';
 
 function Details() {
   const routeParams = useParams();
-  const[selectedMeal, setSelectedMeal] = useState([])
+  const[selectedMeal, setSelectedMeal] = useState([]);
+  const navigate = useNavigate();
+
+  const navigateToNotFoundPage = () => {
+    navigate('*');
+  };
   
   const getMealDetails = useCallback(async () => {
 
@@ -17,6 +22,7 @@ function Details() {
       setSelectedMeal(...res.data.meals);
     })
     .catch((error) => {
+      navigateToNotFoundPage();
         console.log(error.message);
     }); 
     
