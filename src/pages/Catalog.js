@@ -34,6 +34,13 @@ function Catalog() {
     navigate('/recipe/new');
   };
 
+  const handleClickScroll = () => {
+    const element = document.getElementById('catalog-section');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const handleSortingMethod = (event) => {
     const sortMethod = event.target.value;
     const copyArray = [...catalogList]; 
@@ -57,11 +64,11 @@ function Catalog() {
               You don't need a silver fork to eat good food
               Great recipe, delicious meal!
             </p>
-            <button>Find a recipe</button>
+            <button onClick={() => handleClickScroll()}>Find a recipe</button>
           </div>
         </div>
       </section>
-      <section className="catalog">
+      <section className="catalog" id="catalog-section">
         <div className="container">
           <div className="section-heading">
             <h2>Our Cuisines</h2>

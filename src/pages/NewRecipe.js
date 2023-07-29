@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useEffect } from 'react';
 
 
 function NewRecipe() {
@@ -19,7 +20,13 @@ function NewRecipe() {
   const onSubmit = data => console.log(data);
   console.log(errors);
 
-  window.scrollTo(0,0);
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  },[])
+
   
 
   return (
