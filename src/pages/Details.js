@@ -25,7 +25,7 @@ function Details() {
       navigateToNotFoundPage();
         console.log(error.message);
     }); 
-    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[routeParams]);
 
 
