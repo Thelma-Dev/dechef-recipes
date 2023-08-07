@@ -9,4 +9,4 @@ For the purpose of this project, when the form is submitted, the data is not add
 
 ### Demo
 
-Click [here](https://thelma-dev.github.io/dechef-recipes/) to view demo.
+Click [here](https://thelmadev-dechef-recipe.netlify.app/) to view demo.
